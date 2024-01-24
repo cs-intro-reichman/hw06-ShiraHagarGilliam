@@ -15,7 +15,7 @@ public class Runigram {
 
 		// Creates an image which will be the result of various 
 		// image processing operations:
-		Color[][] imageOut;
+		//Color[][] imageOut;
 
 		// Tests the horizontal flipping of an image:
 		// imageOut = blend(flippedVertically(tinypic), tinypic, 0.5);
