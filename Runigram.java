@@ -174,7 +174,7 @@ public class Runigram {
 	 * of the source image.
 	 */
 	public static void morph(Color[][] source, Color[][] target, int n) {
-		Color[][] newTarget = scaled(target, source.length, source[0].length);
+		Color[][] newTarget = scaled(target, source[0].length, source.length);
 		Color[][] res;
 		double alpha = 0;
 		for(int i = 0; i <= n; i++) {
