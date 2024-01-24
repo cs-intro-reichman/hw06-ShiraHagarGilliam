@@ -18,9 +18,9 @@ public class Runigram {
 		Color[][] imageOut;
 
 		// Tests the horizontal flipping of an image:
-		imageOut = blend(flippedVertically(tinypic), tinypic, 0.5);
-		System.out.println();
-		print(imageOut);
+		// imageOut = blend(flippedVertically(tinypic), tinypic, 0.5);
+		// System.out.println();
+		// print(imageOut);
 		
 		//// Write here whatever code you need in order to test your work.
 		//// You can reuse / overide the contents of the imageOut array.
